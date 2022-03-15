@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    box-sizing: content-box;
+    list-style: none;
+    margin: 0px;
+}
+h1{
+    padding: 40px;
+    text-align: center;
+    background-color:slategrey;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 10px 10px 7px black;
+    font-size: 40px;
+}
+.h1{
+    background-image: url(heading.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+}
+
+
+nav{
+    display: flex;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+
+}
+
+nav a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 1em 2em;
+    float: left;
+    text-align: center;
+    text-shadow: 2px 1px 2px black;
+}
+.social-media a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    padding: 10px 1em;
+    margin: 1em;
+    float: left;
+    text-shadow: 2px 1px 1px black;
+    align-content: center;
+    border-radius: 10px;
+    background-color:grey;
+
+}
+
+.social-media i{
+    margin: 5px;
+}
+.social-media a:hover{
+    background-color:black;
+}
+#you{
+    color:red;
+}
+#insta{
+    color: #dd2a7b;
+}
+#linkedin{
+    color: steelblue;
+}
+
+#what{
+    color: greenyellow;
+}
+
+#facebook{
+    color: blue;
+}
+
+
+section{
+    text-align: center;
+    height: 100%;
+    padding: 75px;
+    margin: 10px 20px;
+    min-width: 100vh;
+}
+
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 */
+    position: relative;
+    width: 100%;
+} 
+  
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 85%;
+    height: 80%;
+    
+}
+img{
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+
+
+h2{
+    padding-bottom: 40px;
+}
+footer {
+    display: flex;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    text-shadow: 2px 1px 2px black;
+    align-content: center;
+    padding: 1em;
+    margin: 5px;
+    
+}
+footer a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+    color: darkorange;
+    font-size: large;
+    font-weight: bold;
+}
+h5{
+    padding: 2em;
+    margin: 0px 130px;
+    text-align: center;
+    color: purple;
+}
+h2:hover span{
+    color:palevioletred;
+    text-shadow: 3px 2px 1px black;
+}
+h2 span{
+    background: linear-gradient(to right,  yellow ,lightgreen);
+    color:rgb(240, 12, 88);
+    text-shadow: 3px 2px 1px white;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 20px;
+
+}
+h3{
+    color:coral;
+    text-shadow: 2px 1px 1px black;
+}
+h5{
+    color: darkolivegreen;
+}
+body{
+    background-image: url(photos/b-1.jpg);
+    background-repeat:repeat-y;
+
+}
+
+.no-right{
+    margin-left: auto;
+}
+
+.menu-btn:hover{
+    background-color: whitesmoke;
+    color:black;
+    border-radius:1em;
+}
+
+/* carousel  instagram wala */
+
+
+.carousel{
+    color: white;
+}
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    background: rgb(255 255 255);
+    border-radius: 90%;
+    opacity: .25;
+    cursor: pointer;
+    color: rgb(255 255 255);
+}
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.carousel-cell video{
+    
+    width: 100%;
+    
+    height: 100%;
+
+}
+
+.img-res{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    max-width: 100vh;
+    height: 100%;
+}
+video{
+    width: 100%;
+    width: 100%;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.profile-name{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px ;
+}
+
+.active{
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 82px;
+    margin: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    left: 335px;
+}
+
+
+
+
+
+
+
+@media screen and  (max-width:380px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0px ;
+        width: 100%;
+        max-height: 100vh;
+    
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 10px 0px ;
+        width: 100%;
+        max-height: 100vh;
+    
+    }
+    .no-right{
+        margin-left: 0;
+    }
+
+    section{
+        text-align: center;
+        height: 8%;
+        padding: 60px;
+        margin: 20px -148px;
+        min-width:86vh;
+    }
+
+    
+     .img-fluid{
+         display: flex;
+         flex-direction: column-reverse;
+         margin-left: 177px;
+
+     }
+    .h2{
+        margin-left:-444px;
+    }
+
+    body{
+        background-image: url(photos/b-1.jpg);
+        background-repeat:repeat-y;
+    }
+
+    .profile-name{
+        display: flex;
+        flex-direction: column;
+        text-align: 1/2;
+    }
+
+
+
+    h2 span{
+        text-align: left;
+    }
+
+    .carousel-cell video {
+        width: 80%;
+        height: 100%;
+    }
+
+    .carousel-cell {
+        width: 65%;
+        height: 197px;
+        margin-right: 10px;
+        border-radius: 39px;
+        color: rgb(255 255 255);
+    }
+
+    .social-media a {
+    display: block;
+    color: rgb(0 0 255);
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-left: 12em;
+    margin-bottom: 1em;
+    float: left;
+    text-shadow: 2px 1px 1px black;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 54px;
+    margin:10px 5px;
+    border-radius:50%;
+    position: absolute;
+    top: -7px;
+    left: -6px;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

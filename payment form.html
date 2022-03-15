@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM </title>
+    <link rel="stylesheet" href="style web form.css">
+</head>
+<button> <a href="index.html"> ⏪ BACK </a></button>
+
+<body><div class="container">
+    <form action="">
+        <fieldset><font color="black">
+        <h1 class="heading">PAYMENT FORM</h1>
+        
+        <fieldset>
+        <legend><font color="black">
+            <H2> CONTACT INFORMATION </H2></legend>
+        <P> NAME : * <input type="text"  name ="name " required placeholder="name sirname"></P>
+
+        <fieldset> 
+            <legend>Gender</legend>
+        <p> MALE :<input type="radio" name="gender" id="male" required>
+            FEMALE :<input type="radio" name="gender" id="female" required>
+            OTHER :<input type="radio" name="gender" id="other" required> 
+        </fieldset>
+        </p>
+        
+        <p>ADDRESS: <textarea name="address" id="address" cols="150" rows="4"></textarea></p>
+        <p> EMAIL : * <input type="email" name="email" id="email" required></p>
+        <p>PINCODE : <input type="number" name="pincode" id="pincode" required></p>
+    </fieldset>
+        <br>
+        
+        <fieldset><legend><font color="black">
+
+        <H2>PAYMENT INFORMATION</H2></legend>
+        <p> 
+            CARD TYPE :
+            <select name="card type " id="card type">
+                <option value="">-- select a card type --</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>
+            </select>
+        </p>
+        <p> 
+            CARD NUMBER : * <input type="number" name="card number" id="card number" required>
+        </p>
+        <p>
+            EXPIRATION DATE : * <input type="date" name="expire date" id="expire date" required>
+        </p>
+        <p>
+            CVV : <input type="password" name="cvv" id="cvv" required>
+        </p>
+
+        <input type="submit" value="PAY NOW">
+        </fieldset>
+        </fieldset>
+    </form>
+    </div>
+    
+</body>
+</html>
