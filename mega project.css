@@ -263,7 +263,7 @@ video{
 
 
 
-@media screen and  (max-width:380px) {
+@media screen and  (max-width:430px) {
     nav{
         flex-direction: column;
         padding: 10px 0px ;
