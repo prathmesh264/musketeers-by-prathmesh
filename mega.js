@@ -13,24 +13,8 @@ let button = document.getElementById('login');
             let login = makeAccount(user1, password1);
         }
 
-        let button2 = document.getElementById('faq');
-        button2.addEventListener('click', inputMsg)
-        function inputMsg(){
-            let faq = alert('CLICK HERE FOR FAQ');
-            
-        }
 
-        let button3 = document.getElementById('payment');
-        button3.addEventListener('click', inputMsg)
-        function inputMsg(){
-            let payment = alert('do your PAYMENT HERE')
-        }
 
-        let button4 = document.getElementById('contact');
-        button4.addEventListener('click', inputMsg)
-        function inputMsg(){
-            let payment = alert('give your contact details')
-        }
         
 
 
